@@ -28,10 +28,12 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Syed Qamar Abbas</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Passionate and motivated React JS developer with experience building
+            engaging and dynamic user interfaces. I'm proficient in crafting
+            reusable components, managing state effectively, and adhering to
+            best practices for clean and maintainable code.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -40,7 +42,10 @@ const Intro = () => {
         {/* social icons */}
         <div className="i-icons">
           <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
+          <Link to="https://www.facebook.com/qamar929"  target="_blank" rel="noopener noreferrer">
+          <img src={LinkedIn} alt="Facebook Icon" />
+
+          </Link>
           <img src={Instagram} alt="" />
         </div>
       </div>
@@ -75,7 +80,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="IT & Marketing" text2="Expert" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

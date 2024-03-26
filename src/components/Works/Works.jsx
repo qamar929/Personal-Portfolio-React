@@ -25,14 +25,12 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          Provided IT support and website development services to these businesses, improving their IT infrastructure and online presence.
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            Collaborated with clients to understand their specific needs and translated them into effective web solutions
             <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+            Optimized website performance and ensured high user satisfaction across all client projects.            <br />
+            Developed and maintained responsive e-commerce websites for a variety of clients across retail, fashion, and food industries.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
